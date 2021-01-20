@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_dialog"
+    tools:context=".fragments.CreateNewTaskFragment">
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Create a New Task"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_topic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:text=" Topic"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write topic"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text=" Description"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write description"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text=" Date"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <EditText
+            android:id="@+id/edt_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:focusable="true"
+            android:clickable="true"
+            android:hint="17/07/2001"></EditText>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:text=" Time"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <EditText
+            android:id="@+id/edt_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:focusable="true"
+            android:clickable="true"
+            android:hint="5:00 AM"></EditText>
+        <TextView
+            android:id="@+id/tv_notification"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text=" Notification"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <Spinner
+            android:id="@+id/spinner_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"></Space>
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            ></Button>
+    </LinearLayout>
+
+</FrameLayout>

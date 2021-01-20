@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <io.ghyeok.stickyswitch.widget.StickySwitch
+            android:id="@+id/sticky_switch"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:ss_animationDuration="300"
+            app:ss_iconPadding="18dp"
+            app:ss_iconSize="22dp"
+            app:ss_leftIcon="@drawable/personal"
+            app:ss_leftText="Monthly"
+            app:ss_rightIcon="@drawable/bell"
+            app:ss_rightText="Daily"
+            app:ss_selectedTextSize="14sp"
+            app:ss_sliderBackgroundColor="@color/white"
+            app:ss_switchColor="#5A95FF"
+            app:ss_textColor="@color/black"
+            app:ss_textSize="12sp"
+            app:ss_animationType="line"/>
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </FrameLayout>
+
+
+</LinearLayout>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_marginEnd="16dp"
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:elevation="0dp"
+            android:background="@android:color/transparent"
+            app:menu="@menu/bottom_navigation_items" />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        app:layout_anchor="@id/bottomAppBar" />
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/taskitem_rounded"
+    android:layout_marginHorizontal="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/tv_taskNameItem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="2"
+        android:text="Lera Tab"
+        android:textStyle="bold"></TextView>
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:id="@+id/tv_taskDateItem"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="18_1_2021"></TextView>
+                <TextView
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="|"></TextView>
+                <TextView
+                    android:id="@+id/tv_taskTimeItem"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="4:00"></TextView>
+</LinearLayout>

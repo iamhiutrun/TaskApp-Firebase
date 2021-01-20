@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/list_item"
+        android:title="List"
+        android:icon="@drawable/list"
+        ></item>
+    <item
+        android:id="@+id/clock"
+        android:title="Clock"
+        android:icon="@drawable/clock"
+        ></item>
+    <item
+        android:id="@+id/view_holder"
+        android:title=""
+        ></item>
+    <item
+        android:id="@+id/bell"
+        android:title="Ring"
+        android:icon="@drawable/bell"
+        ></item>
+    <item
+        android:id="@+id/personal"
+        android:title="Personal"
+        android:icon="@drawable/personal"
+        ></item>
+</menu>

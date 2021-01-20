@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4th March 2020"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/taskitem_rounded"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_taskNameItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="3"
+            android:text="Lera Tab"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/tv_taskTimeItem"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="4:00"></TextView>
+    </LinearLayout>
+</LinearLayout>

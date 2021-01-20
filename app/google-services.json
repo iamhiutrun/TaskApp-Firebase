@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "382610920850",
+    "project_id": "task-app-fec1e",
+    "storage_bucket": "task-app-fec1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382610920850:android:4642cb470eb95f20679d4b",
+        "android_client_info": {
+          "package_name": "hiutrun.example.todoapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382610920850-s1ql1g3pvbtqsf7nmrmns67ucdba4u02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjXGIblIvx6DPXlLPZJE-uKUKiL2os0Ok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382610920850-s1ql1g3pvbtqsf7nmrmns67ucdba4u02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
