@@ -1,7 +1,6 @@
 package hiutrun.example.todoapplication.firebase;
 
 import android.text.TextUtils;
-import android.util.Log;
 
 import androidx.annotation.NonNull;
 
@@ -11,12 +10,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
-import hiutrun.example.todoapplication.model.ListTask;
 import hiutrun.example.todoapplication.model.Task;
 
 public class DatabaseFirebaseHelper {
